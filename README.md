@@ -7,8 +7,17 @@ This repository contains the code and data for the LLM_Cannabis_EHR project. The
 # 
 1. set up conda env and download models from hf
 ```shell
+# Create env (if not already created)
+conda create -n llm_ard python=3.10 -y
+
+# Activate env
 conda activate llm_ard
-pip install -U "huggingface_hub"
+
+# Install from requirements.txt
+pip install -r requirements.txt
+
+# Then upgrade huggingface_hub (optional, if you want latest)
+pip install -U huggingface_hub
 
 huggingface-cli download meta-llama/Meta-Llama-3.1-8B-Instruct \
 --local-dir ./LLMs/Meta-Llama-3.1-8B-Instruct \

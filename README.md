@@ -9,7 +9,7 @@ Information on the lexicon, prompts, evaluation pipeline, environment requiremen
 - **Prompts:** `prompts_status.py`, `prompts_reason.py`
 - **Evaluation pipeline:** `8_ModelPerformanceComparison_combined.ipynb`
 - **Requirements:** `requirements.txt`
-- **Annotation guidelines:** `ANNOTATION_GUIDELINES_Emory_EHR_Cannabis.docx`
+- **Annotation guidelines:** `ANNOTATION_GUIDELINES_EHR_Cannabis.docx`
 
 
 

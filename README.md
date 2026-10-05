@@ -2,6 +2,17 @@
 
 This repository contains the code and data for the LLM_Cannabis_EHR project. The aim of this project is to describe cannabis use behaviors in EHR
 
+
+Information on the lexicon, prompts, evaluation pipeline, environment requirements, and annotation guidelines can be found in the following scripts and documents in the GitHub repository:
+
+- **Lexicon:** `1_Snippet_Creation.ipynb`
+- **Prompts:** `prompts_status.py`, `prompts_reason.py`
+- **Evaluation pipeline:** `8_ModelPerformanceComparison_combined.ipynb`
+- **Requirements:** `requirements.txt`
+- **Annotation guidelines:** `ANNOTATION_GUIDELINES_Emory_EHR_Cannabis.docx`
+
+
+
 ## Quickstart:
 
 # 
